@@ -6,12 +6,16 @@ import TextField from "@mui/material/TextField";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 
-const { REACT_APP_CONFIG_SERVICE_URL } = process.env;
+// const { REACT_APP_CONFIG_SERVICE_URL } = process.env;
 
 const defaultOptions = [
   {
-    label: "Config Service URL",
-    value: REACT_APP_CONFIG_SERVICE_URL || "",
+    label: "Holesky PRD",
+    value: "https://config.holesky-safe.protofire.io",
+  },
+  {
+    label: "Holesky STG",
+    value: "https://config.stg.holesky-safe.protofire.io",
   },
 ];
 
