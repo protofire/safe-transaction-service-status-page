@@ -10,6 +10,14 @@ import ListItemText from "@mui/material/ListItemText";
 
 const defaultOptions = [
   {
+    label: "Berachain PRD",
+    value: "https://config.safe.berachain.com",
+  },
+  {
+    label: "Berachain STG",
+    value: "https://config.staging.safe.berachain.com",
+  },
+  {
     label: "Holesky PRD",
     value: "https://config.holesky-safe.protofire.io",
   },
