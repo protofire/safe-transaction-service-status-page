@@ -10,6 +10,14 @@ import ListItemText from "@mui/material/ListItemText";
 
 const defaultOptions = [
   {
+    label: "Astar PRD",
+    value: "https://config.safe.astar.network",
+  },
+  {
+    label: "Astar STG",
+    value: "https://config.staging-safe.astar.network",
+  },
+  {
     label: "Berachain PRD",
     value: "https://config.safe.berachain.com",
   },
