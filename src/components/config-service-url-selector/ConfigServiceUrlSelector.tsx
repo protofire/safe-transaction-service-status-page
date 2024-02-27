@@ -30,6 +30,14 @@ const defaultOptions = [
     value: "https://config.blast-safe.protofire.io",
   },
   {
+    label: "Evmos PRD",
+    value: "https://config.safe.evmos.org",
+  },
+  {
+    label: "Evmos STG",
+    value: "https://config.safe.evmos.dev",
+  },
+  {
     label: "Holesky PRD",
     value: "https://config.holesky-safe.protofire.io",
   },
