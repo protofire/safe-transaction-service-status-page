@@ -26,6 +26,10 @@ const defaultOptions = [
     value: "https://config.staging.safe.berachain.com",
   },
   {
+    label: "Blast STG",
+    value: "https://config.blast-safe.protofire.io",
+  },
+  {
     label: "Holesky PRD",
     value: "https://config.holesky-safe.protofire.io",
   },
