@@ -45,6 +45,14 @@ const defaultOptions = [
     label: "Holesky STG",
     value: "https://config.stg.holesky-safe.protofire.io",
   },
+  {
+    label: "ZetaChain PRD",
+    value: "https://config.safe.zetachain.com",
+  },
+  {
+    label: "ZetaChain STG",
+    value: "https://config.staging.safe.zetachain.com",
+  },
 ];
 
 type ConfigServiceUrlSelectorProps = {
