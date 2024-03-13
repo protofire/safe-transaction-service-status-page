@@ -154,6 +154,14 @@ const defaultOptions = [
     value: "https://config.staging.safe.re.al",
   },
   {
+    label: "Wemix PRD",
+    value: "https://config.safe.wemix.com",
+  },
+  {
+    label: "Wemix STG",
+    value: "https://config.staging.safe.wemix.com",
+  },
+  {
     label: "ZetaChain PRD",
     value: "https://config.safe.zetachain.com",
   },
