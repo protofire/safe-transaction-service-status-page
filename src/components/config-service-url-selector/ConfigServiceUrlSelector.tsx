@@ -70,6 +70,14 @@ const defaultOptions = [
     value: "https://config.staging.safe.kroma.network",
   },
   {
+    label: "Linea PRD",
+    value: "https://config.safe.linea.build",
+  },
+  {
+    label: "Linea STG",
+    value: "https://config.staging.safe.linea.build",
+  },
+  {
     label: "ZetaChain PRD",
     value: "https://config.safe.zetachain.com",
   },
