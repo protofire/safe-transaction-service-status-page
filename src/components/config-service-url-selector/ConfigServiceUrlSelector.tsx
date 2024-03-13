@@ -27,7 +27,7 @@ const defaultOptions = [
   },
   {
     label: "Blast STG",
-    value: "https://config.blast-safe.io/",
+    value: "https://config.blast-safe.io",
   },
   {
     label: "Evmos PRD",
