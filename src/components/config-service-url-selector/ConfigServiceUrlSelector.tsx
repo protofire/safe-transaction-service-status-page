@@ -94,6 +94,14 @@ const defaultOptions = [
     value: "https://config.staging.multisig.moonbeam.network",
   },
   {
+    label: "NeonEVM PRD",
+    value: "https://config.safe.neonevm.org",
+  },
+  {
+    label: "NeonEVM STG",
+    value: "https://config.staging.safe.neonevm.org",
+  },
+  {
     label: "ZetaChain PRD",
     value: "https://config.safe.zetachain.com",
   },
