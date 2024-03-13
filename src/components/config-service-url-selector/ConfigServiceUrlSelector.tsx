@@ -38,6 +38,14 @@ const defaultOptions = [
     value: "https://config.safe.evmos.dev",
   },
   {
+    label: "Harmony PRD",
+    value: "https://config.multisig.harmony.one",
+  },
+  {
+    label: "Harmony STG",
+    value: "https://config.staging-safe.harmony.one",
+  },
+  {
     label: "Holesky PRD",
     value: "https://config.holesky-safe.protofire.io",
   },
