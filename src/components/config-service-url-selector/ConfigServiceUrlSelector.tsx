@@ -86,6 +86,14 @@ const defaultOptions = [
     value: "https://config.staging.multisig.mantle.xyz",
   },
   {
+    label: "Moonbeam PRD",
+    value: "https://config.multisig.moonbeam.network",
+  },
+  {
+    label: "Moonbeam STG",
+    value: "https://config.staging.multisig.moonbeam.network",
+  },
+  {
     label: "ZetaChain PRD",
     value: "https://config.safe.zetachain.com",
   },
