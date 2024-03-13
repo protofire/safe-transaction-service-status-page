@@ -118,6 +118,14 @@ const defaultOptions = [
     value: "https://config.staging.safe.rootstock.io",
   },
   {
+    label: "Scroll PRD",
+    value: "https://config.safe.scroll.xyz",
+  },
+  {
+    label: "Scroll STG",
+    value: "https://config.staging.safe.scroll.xyz",
+  },
+  {
     label: "Sei PRD",
     value: "https://config.sei-safe.protofire.io",
   },
