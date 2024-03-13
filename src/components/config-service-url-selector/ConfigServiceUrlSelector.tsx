@@ -134,6 +134,14 @@ const defaultOptions = [
     value: "https://config.staging.safe.optimism.io",
   },
   {
+    label: "Taiko PRD",
+    value: "https://config.safe.taiko.xyz",
+  },
+  {
+    label: "Taiko STG",
+    value: "https://config.staging.safe.taiko.xyz",
+  },
+  {
     label: "ZetaChain PRD",
     value: "https://config.safe.zetachain.com",
   },
