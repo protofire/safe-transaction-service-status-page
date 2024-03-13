@@ -126,6 +126,14 @@ const defaultOptions = [
     value: "https://config.staging.sei-safe.protofire.io",
   },
   {
+    label: "Superchain PRD",
+    value: "https://config.safe.optimism.io",
+  },
+  {
+    label: "Superchain STG",
+    value: "https://config.staging.safe.optimism.io",
+  },
+  {
     label: "ZetaChain PRD",
     value: "https://config.safe.zetachain.com",
   },
