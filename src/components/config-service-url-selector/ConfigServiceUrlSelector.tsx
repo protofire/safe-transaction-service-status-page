@@ -102,6 +102,14 @@ const defaultOptions = [
     value: "https://config.staging.safe.neonevm.org",
   },
   {
+    label: "Oasis PRD",
+    value: "https://config.safe.oasis.io",
+  },
+  {
+    label: "Oasis STG",
+    value: "https://config.safe.stg.oasis.io",
+  },
+  {
     label: "ZetaChain PRD",
     value: "https://config.safe.zetachain.com",
   },
