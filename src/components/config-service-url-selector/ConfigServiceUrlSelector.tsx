@@ -110,6 +110,14 @@ const defaultOptions = [
     value: "https://config.safe.stg.oasis.io",
   },
   {
+    label: "Rootstock PRD",
+    value: "https://config.safe.rootstock.io",
+  },
+  {
+    label: "Rootstock STG",
+    value: "https://config.staging.safe.rootstock.io",
+  },
+  {
     label: "ZetaChain PRD",
     value: "https://config.safe.zetachain.com",
   },
