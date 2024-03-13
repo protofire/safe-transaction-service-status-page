@@ -54,6 +54,14 @@ const defaultOptions = [
     value: "https://config.stg.holesky-safe.protofire.io",
   },
   {
+    label: "Immutable PRD",
+    value: "https://config.safe.immutable.com",
+  },
+  {
+    label: "Immutable STG",
+    value: "https://config.safe.staging.immutable.com",
+  },
+  {
     label: "ZetaChain PRD",
     value: "https://config.safe.zetachain.com",
   },
