@@ -142,6 +142,10 @@ const defaultOptions = [
     value: "https://config.staging.safe.taiko.xyz",
   },
   {
+    label: "Tangible STG",
+    value: "https://config.staging.safe.re.al",
+  },
+  {
     label: "ZetaChain PRD",
     value: "https://config.safe.zetachain.com",
   },
