@@ -62,6 +62,14 @@ const defaultOptions = [
     value: "https://config.safe.staging.immutable.com",
   },
   {
+    label: "Kroma PRD",
+    value: "https://config.safe.kroma.network",
+  },
+  {
+    label: "Kroma STG",
+    value: "https://config.staging.safe.kroma.network",
+  },
+  {
     label: "ZetaChain PRD",
     value: "https://config.safe.zetachain.com",
   },
