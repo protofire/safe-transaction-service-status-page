@@ -78,6 +78,14 @@ const defaultOptions = [
     value: "https://config.staging.safe.linea.build",
   },
   {
+    label: "Mantle PRD",
+    value: "https://config.multisig.mantle.xyz",
+  },
+  {
+    label: "Mantle STG",
+    value: "https://config.staging.multisig.mantle.xyz",
+  },
+  {
     label: "ZetaChain PRD",
     value: "https://config.safe.zetachain.com",
   },
