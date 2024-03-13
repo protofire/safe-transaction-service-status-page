@@ -118,6 +118,14 @@ const defaultOptions = [
     value: "https://config.staging.safe.rootstock.io",
   },
   {
+    label: "Sei PRD",
+    value: "https://config.sei-safe.protofire.io",
+  },
+  {
+    label: "Sei STG",
+    value: "https://config.staging.sei-safe.protofire.io",
+  },
+  {
     label: "ZetaChain PRD",
     value: "https://config.safe.zetachain.com",
   },
