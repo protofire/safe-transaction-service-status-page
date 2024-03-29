@@ -3,7 +3,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-// import Link from "@mui/material/Link";
+import Link from "@mui/material/Link";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
 import DarkThemeIcon from "@mui/icons-material/Brightness4";
@@ -11,6 +11,8 @@ import LightThemeIcon from "@mui/icons-material/Brightness7";
 import styled from "@emotion/styled";
 
 // import safeLogo from "src/assets/safe-logo.svg";
+
+const { REACT_APP_SUPPORT_REPO } = process.env;
 
 type HeaderProps = {
   switchThemeMode: () => void;
@@ -37,54 +39,56 @@ function Header({ switchThemeMode, isDarkTheme }: HeaderProps) {
             component="nav"
             justifyContent="flex-end"
           >
-            {/*<NavList>*/}
-            {/*  /!* Github Link *!/*/}
-            {/*  <NavListItem>*/}
-            {/*    <Link*/}
-            {/*      href="https://github.com/safe-global/"*/}
-            {/*      color="inherit"*/}
-            {/*      underline="hover"*/}
-            {/*      target="_blank"*/}
-            {/*    >*/}
-            {/*      <Typography>Github</Typography>*/}
-            {/*    </Link>*/}
-            {/*  </NavListItem>*/}
+            <NavList>
+              {/* Github Link */}
+              {/*  <NavListItem>*/}
+              {/*    <Link*/}
+              {/*      href="https://github.com/safe-global/"*/}
+              {/*      color="inherit"*/}
+              {/*      underline="hover"*/}
+              {/*      target="_blank"*/}
+              {/*    >*/}
+              {/*      <Typography>Github</Typography>*/}
+              {/*    </Link>*/}
+              {/*  </NavListItem>*/}
 
-            {/*  /!* Help Docs Link *!/*/}
-            {/*  <NavListItem>*/}
-            {/*    <Link*/}
-            {/*      href="https://help.gnosis-safe.io/en/"*/}
-            {/*      color="inherit"*/}
-            {/*      underline="hover"*/}
-            {/*      target="_blank"*/}
-            {/*    >*/}
-            {/*      <Typography>Help Docs</Typography>*/}
-            {/*    </Link>*/}
-            {/*  </NavListItem>*/}
+              {/*  /!* Help Docs Link *!/*/}
+              {/*  <NavListItem>*/}
+              {/*    <Link*/}
+              {/*      href="https://help.gnosis-safe.io/en/"*/}
+              {/*      color="inherit"*/}
+              {/*      underline="hover"*/}
+              {/*      target="_blank"*/}
+              {/*    >*/}
+              {/*      <Typography>Help Docs</Typography>*/}
+              {/*    </Link>*/}
+              {/*  </NavListItem>*/}
 
-            {/*  /!* Developes Docs Link *!/*/}
-            {/*  <NavListItem>*/}
-            {/*    <Link*/}
-            {/*      href="https://docs.gnosis-safe.io/"*/}
-            {/*      color="inherit"*/}
-            {/*      underline="hover"*/}
-            {/*      target="_blank"*/}
-            {/*    >*/}
-            {/*      <Typography>Dev Docs</Typography>*/}
-            {/*    </Link>*/}
-            {/*  </NavListItem>*/}
+              {/*  /!* Developes Docs Link *!/*/}
+              {/*  <NavListItem>*/}
+              {/*    <Link*/}
+              {/*      href="https://docs.gnosis-safe.io/"*/}
+              {/*      color="inherit"*/}
+              {/*      underline="hover"*/}
+              {/*      target="_blank"*/}
+              {/*    >*/}
+              {/*      <Typography>Dev Docs</Typography>*/}
+              {/*    </Link>*/}
+              {/*  </NavListItem>*/}
 
-            {/*  /!* Support tickets Link *!/*/}
-            {/*  <NavListItem>*/}
-            {/*    <Link*/}
-            {/*      href="https://github.com/5afe/safe-support/issues"*/}
-            {/*      color="inherit"*/}
-            {/*      underline="hover"*/}
-            {/*    >*/}
-            {/*      <Typography>Support tickets</Typography>*/}
-            {/*    </Link>*/}
-            {/*  </NavListItem>*/}
-            {/*</NavList>*/}
+              {/* Support tickets Link */}
+              {REACT_APP_SUPPORT_REPO ? (
+                <NavListItem>
+                  <Link
+                    href={REACT_APP_SUPPORT_REPO}
+                    color="inherit"
+                    underline="hover"
+                  >
+                    <Typography>Support tickets</Typography>
+                  </Link>
+                </NavListItem>
+              ) : null}
+            </NavList>
           </Box>
 
           {/* Switch Theme mode button */}
@@ -136,7 +140,7 @@ const StyledAppTitle: any = styled(Typography)<{
   text-overflow: ellipsis;
   white-space: nowrap;
 `;
-/*
+
 const NavList = styled("ul")`
   display: flex;
   list-style-type: none;
@@ -147,4 +151,3 @@ const NavList = styled("ul")`
 const NavListItem = styled("li")`
   margin-left: 16px;
 `;
-*/
