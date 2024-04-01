@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Safe Tx Status",
+  "name": "Indexing status for Safe Tx Services",
   "icons": [
     {
       "src": "favicon.ico",
