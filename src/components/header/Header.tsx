@@ -10,7 +10,7 @@ import DarkThemeIcon from "@mui/icons-material/Brightness4";
 import LightThemeIcon from "@mui/icons-material/Brightness7";
 import styled from "@emotion/styled";
 
-// import safeLogo from "src/assets/safe-logo.svg";
+import safeLogo from "src/assets/safe-logo.svg";
 
 const { REACT_APP_SUPPORT_REPO } = process.env;
 
@@ -25,7 +25,7 @@ function Header({ switchThemeMode, isDarkTheme }: HeaderProps) {
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* App Logo */}
-          {/*<AppLogoHeader id="app-logo-header" src={safeLogo} alt="app logo" />*/}
+          <AppLogoHeader id="app-logo-header" src={safeLogo} alt="app logo" />
 
           {/* App Title */}
           <StyledAppTitle variant="h6" component="h1">
@@ -111,7 +111,7 @@ function Header({ switchThemeMode, isDarkTheme }: HeaderProps) {
 }
 
 export default Header;
-/*
+
 const AppLogoHeader = styled("img")`
   height: 40px;
   pointer-events: none;
@@ -127,7 +127,7 @@ const AppLogoHeader = styled("img")`
     }
   }
 `;
-*/
+
 const StyledAppTitle: any = styled(Typography)<{
   variant: string;
   component: string;
