@@ -12,8 +12,9 @@ const { REACT_APP_CONFIG_SERVICE_URL, REACT_APP_SHOW_CONFIG_SERVICE_SELECTOR } =
   process.env;
 
 function App() {
-  const [configServiceUrl, setConfigServiceUrl] = useState<string>(
-    REACT_APP_CONFIG_SERVICE_URL || ""
+  // Initialize configServiceUrl as an array of strings
+  const [configServiceUrl, setConfigServiceUrl] = useState<string[]>(
+    REACT_APP_CONFIG_SERVICE_URL ? REACT_APP_CONFIG_SERVICE_URL.split(",") : []
   );
 
   const { theme, switchThemeMode, isDarkTheme } = useTheme();

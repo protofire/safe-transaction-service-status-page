@@ -1,17 +1,19 @@
-import { SyntheticEvent, useState } from "react";
+import { SyntheticEvent, useState, useEffect } from "react";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Autocomplete, { createFilterOptions } from "@mui/material/Autocomplete";
 import TextField from "@mui/material/TextField";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
-import { defaultOptions } from "./default-options";
-
-// const { REACT_APP_CONFIG_SERVICE_URL } = process.env;
+import {
+  defaultOptions,
+  defaultOptionsPRD,
+  defaultOptionsSTG,
+} from "./default-options";
 
 type ConfigServiceUrlSelectorProps = {
-  configServiceUrl?: string;
-  setConfigServiceUrl: React.Dispatch<React.SetStateAction<string>>;
+  configServiceUrl?: string[];
+  setConfigServiceUrl: React.Dispatch<React.SetStateAction<string[]>>;
 };
 
 type optionsType = {
@@ -27,10 +29,25 @@ const filterOptions = createFilterOptions({
 });
 
 function ConfigServiceUrlSelector({
-  configServiceUrl,
+  configServiceUrl = [],
   setConfigServiceUrl,
 }: ConfigServiceUrlSelectorProps) {
   const [inputValue, setInputValue] = useState<string>("");
+
+  // Combine all options including All PRD and All STG
+  const combinedOptions = [
+    { label: "All PRD", value: "PRD" },
+    { label: "All STG", value: "STG" },
+    ...defaultOptions,
+  ];
+
+  // Set default value to PRD options on mount
+  useEffect(() => {
+    if (configServiceUrl.length === 0) {
+      setConfigServiceUrl(defaultOptionsPRD.map((opt) => opt.value));
+      setInputValue("All PRD");
+    }
+  }, [setConfigServiceUrl, configServiceUrl]);
 
   return (
     <Box maxWidth={320} marginTop={4} marginBottom={2} component={Paper}>
@@ -38,14 +55,27 @@ function ConfigServiceUrlSelector({
         id="config-service-url-input"
         freeSolo
         // Config Service value
-        value={configServiceUrl}
+        value={inputValue}
         onChange={(
           event: SyntheticEvent,
           option: string | optionsType | null
         ) => {
           const isStringValue = typeof option === "string";
           const newValue = isStringValue ? option : option?.value;
-          setConfigServiceUrl(newValue || "");
+
+          if (newValue === "PRD") {
+            setConfigServiceUrl(defaultOptionsPRD.map((opt) => opt.value));
+            setInputValue("All PRD");
+          } else if (newValue === "STG") {
+            setConfigServiceUrl(defaultOptionsSTG.map((opt) => opt.value));
+            setInputValue("All STG");
+          } else if (newValue) {
+            setConfigServiceUrl([newValue]);
+            setInputValue(newValue);
+          } else {
+            setConfigServiceUrl([]);
+            setInputValue("");
+          }
         }}
         // input value
         inputValue={inputValue}
@@ -64,7 +94,7 @@ function ConfigServiceUrlSelector({
         getOptionLabel={(option) =>
           typeof option === "string" ? option : option.value
         }
-        options={defaultOptions}
+        options={combinedOptions}
         renderOption={(props, option) => (
           <ListItem {...props}>
             <ListItemText primary={option.label} secondary={option.value} />

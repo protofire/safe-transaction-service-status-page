@@ -17,19 +17,20 @@ import useApi from "src/hooks/useApi";
 import ChainStatusRow from "src/components/chain-status-table/ChainStatusRow";
 
 type StatusTableProps = {
-  configServiceUrl: string;
+  configServiceUrl: string[];
 };
 
 function ChainStatusTable({ configServiceUrl }: StatusTableProps) {
   // endpoint to fetch all chains from the config service
   const fetchChains = useCallback(
-    (signal: AbortSignal) => {
-      if (isValidUrl(configServiceUrl)) {
-        return getChains(configServiceUrl, {
-          signal,
-        });
-      }
-      return Promise.resolve([]);
+    async (signal: AbortSignal) => {
+      const validUrls = configServiceUrl.filter(isValidUrl);
+      const chainPromises = validUrls.map((url) =>
+        getChains(url, { signal }).catch(() => [])
+      );
+
+      const chainsArray = await Promise.all(chainPromises);
+      return chainsArray.flat();
     },
     [configServiceUrl]
   );
