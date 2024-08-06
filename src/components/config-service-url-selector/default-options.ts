@@ -131,6 +131,38 @@ export const defaultOptionsPRD = [
     label: "zkLink PRD",
     value: "https://config.safe.zklink.io",
   },
+  {
+    label: "Autonomys PRD",
+    value: "https://config.safe.autonomys.xyz"
+  },
+  {
+    label: "Etherlink PRD",
+    value: "https://config.safe.etherlink.com"
+  },
+  {
+    label: "Open Campus Codex PRD",
+    value: "https://config.opencampus-codex-safe.protofire.io"
+  },
+  {
+    label: "Aleph Zero PRD",
+    value: "https://config.alephzero-safe.protofire.io"
+  },
+  {
+    label: "KAVA PRD",
+    value: "https://config.safe.kava.io"
+  },
+  {
+    label: "Morph PRD",
+    value: "https://config.safe.morphl2.io",
+  },
+  {
+    label: "Zircuit PRD",
+    value: "https://config.safe.zircuit.com",
+  },
+  {
+    label: "Saakuru PRD",
+    value: "https://config-safe.saakuru.com",
+  },
 ];
 
 export const defaultOptionsSTG = [
@@ -257,6 +289,38 @@ export const defaultOptionsSTG = [
   {
     label: "zkLink STG",
     value: "https://config.staging.safe.zklink.io",
+  },
+  {
+    label: "Autonomys STG",
+    value: "https://config.staging.safe.autonomys.xyz"
+  },
+  {
+    label: "Etherlink STG",
+    value: "https://config.staging.safe.etherlink.com/"
+  },
+  {
+    label: "Open Campus Codex STG",
+    value: "https://config.staging.opencampus-codex-safe.protofire.io"
+  },
+  {
+    label: "Aleph Zero STG",
+    value: "https://config.staging.alephzero-safe.protofire.io"
+  },
+  {
+    label: "KAVA STG",
+    value: "https://config.staging.safe.kava.io"
+  },
+  {
+    label: "Morph STG",
+    value: "https://config.stg.safe.morphl2.io",
+  },
+  {
+    label: "Zircuit STG",
+    value: "https://config.staging.safe.zircuit.com",
+  },
+  {
+    label: "Saakuru STG",
+    value: "https://config-safe-stage.saakuru.com/",
   },
 ];
 
