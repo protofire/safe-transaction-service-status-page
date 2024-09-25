@@ -133,23 +133,23 @@ export const defaultOptionsPRD = [
   },
   {
     label: "Autonomys PRD",
-    value: "https://config.safe.autonomys.xyz"
+    value: "https://config.safe.autonomys.xyz",
   },
   {
     label: "Etherlink PRD",
-    value: "https://config.safe.etherlink.com"
+    value: "https://config.safe.etherlink.com",
   },
   {
     label: "Open Campus Codex PRD",
-    value: "https://config.opencampus-codex-safe.protofire.io"
+    value: "https://config.opencampus-codex-safe.protofire.io",
   },
   {
     label: "Aleph Zero PRD",
-    value: "https://config.alephzero-safe.protofire.io"
+    value: "https://config.alephzero-safe.protofire.io",
   },
   {
     label: "KAVA PRD",
-    value: "https://config.safe.kava.io"
+    value: "https://config.safe.kava.io",
   },
   {
     label: "Morph PRD",
@@ -162,6 +162,58 @@ export const defaultOptionsPRD = [
   {
     label: "Saakuru PRD",
     value: "https://config-safe.saakuru.com",
+  },
+  {
+    label: "Boba Mainnet",
+    value: "https://transaction.safe.boba.network",
+  },
+  {
+    label: "Boba Testnet",
+    value: "https://transaction-testnet.safe.boba.network",
+  },
+  {
+    label: "Boba Mainnet BNB",
+    value: "https://transaction-bnb.safe.boba.network",
+  },
+  {
+    label: "Boba Testnet BNB",
+    value: "https://transaction-bnb-testnet.safe.boba.network",
+  },
+  {
+    label: "Flow Testnet",
+    value: "https://transaction-testnet.safe.flow.com",
+  },
+  {
+    label: "Everclear Testnet",
+    value: "https://transaction-testnet.safe.everclear.org",
+  },
+  {
+    label: "Everclear Mainnet",
+    value: "https://transaction.safe.everclear.org",
+  },
+  {
+    label: "Shape Mainnet",
+    value: "https://transaction.safe.shape.network",
+  },
+  {
+    label: "Shape Sepolia",
+    value: "https://transaction-testnet.safe.shape.network",
+  },
+  {
+    label: "Sophon Testnet",
+    value: "https://transaction-testnet.safe.sophon.xyz",
+  },
+  {
+    label: "Vana Testnet",
+    value: "https://transaction-testnet.safe.vana.org/",
+  },
+  {
+    label: "Xai Mainnet",
+    value: "https://transaction.safe.xai.games",
+  },
+  {
+    label: "Xai Testnet",
+    value: "https://transaction-testnet.safe.xai.games",
   },
 ];
 
@@ -292,23 +344,23 @@ export const defaultOptionsSTG = [
   },
   {
     label: "Autonomys STG",
-    value: "https://config.staging.safe.autonomys.xyz"
+    value: "https://config.staging.safe.autonomys.xyz",
   },
   {
     label: "Etherlink STG",
-    value: "https://config.staging.safe.etherlink.com/"
+    value: "https://config.staging.safe.etherlink.com/",
   },
   {
     label: "Open Campus Codex STG",
-    value: "https://config.staging.opencampus-codex-safe.protofire.io"
+    value: "https://config.staging.opencampus-codex-safe.protofire.io",
   },
   {
     label: "Aleph Zero STG",
-    value: "https://config.staging.alephzero-safe.protofire.io"
+    value: "https://config.staging.alephzero-safe.protofire.io",
   },
   {
     label: "KAVA STG",
-    value: "https://config.staging.safe.kava.io"
+    value: "https://config.staging.safe.kava.io",
   },
   {
     label: "Morph STG",
@@ -321,6 +373,58 @@ export const defaultOptionsSTG = [
   {
     label: "Saakuru STG",
     value: "https://config-safe-stage.saakuru.com/",
+  },
+  {
+    label: "Boba Mainnet",
+    value: "https://transaction.staging.safe.boba.network",
+  },
+  {
+    label: "Boba Testnet",
+    value: "https://transaction-testnet.staging.safe.boba.network",
+  },
+  {
+    label: "Boba Mainnet BNB",
+    value: "https://transaction-bnb.staging.safe.boba.network",
+  },
+  {
+    label: "Boba Testnet BNB",
+    value: "https://transaction-bnb-testnet.staging.safe.boba.network",
+  },
+  {
+    label: "Flow Testnet",
+    value: "https://transaction-testnet.staging.safe.flow.com",
+  },
+  {
+    label: "Everclear Testnet",
+    value: "https://transaction-testnet.staging.safe.everclear.org",
+  },
+  {
+    label: "Everclear Mainnet",
+    value: "https://transaction.staging.safe.everclear.org",
+  },
+  {
+    label: "Shape Mainnet",
+    value: " https://transaction.staging.safe.shape.network",
+  },
+  {
+    label: "Shape Sepolia",
+    value: "https://transaction-testnet.staging.safe.shape.network",
+  },
+  {
+    label: "Sophon Testnet",
+    value: "https://transaction-testnet.staging.safe.sophon.xyz/",
+  },
+  {
+    label: "Vana Testnet",
+    value: "https://transaction-testnet.staging.safe.vana.org/",
+  },
+  {
+    label: "Xai Mainnet",
+    value: "https://transaction.staging.safe.xai.games",
+  },
+  {
+    label: "Xai Testnet",
+    value: "https://transaction-testnet.staging.safe.xai.games",
   },
 ];
 
