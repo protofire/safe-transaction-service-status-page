@@ -96,6 +96,10 @@ export const defaultOptionsPRD = [
     value: "https://config.sei-safe.protofire.io",
   },
   {
+    label: "Shape PRD",
+    value: "https://config.safe.shape.network"
+  },
+  {
     label: "Superchain PRD",
     value: "https://config.safe.optimism.io",
   },
@@ -309,6 +313,10 @@ export const defaultOptionsSTG = [
   {
     label: "Sei STG",
     value: "https://config.staging.sei-safe.protofire.io",
+  },
+  {
+    label: "Shape STG",
+    value: "https://config.staging.safe.shape.network"
   },
   {
     label: "Superchain STG",
