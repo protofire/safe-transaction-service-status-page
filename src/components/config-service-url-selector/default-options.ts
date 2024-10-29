@@ -16,6 +16,10 @@ export const defaultOptionsPRD = [
     value: "https://config.safe.gobob.xyz",
   },
   {
+    label: "BOBA PRD",
+    value: "https://config.safe.boba.network",
+  },
+  {
     label: "CrossFi PRD",
     value: "https://config.safe.crossfi.org",
   },
@@ -251,6 +255,10 @@ export const defaultOptionsSTG = [
     value: "https://config.staging.safe.gobob.xyz",
   },
   {
+    label: "BOBA STG",
+    value: "https://config.staging.safe.boba.network",
+  },
+  {
     label: "CrossFi STG",
     value: "https://config.staging.safe.crossfi.org",
   },
@@ -407,12 +415,12 @@ export const defaultOptionsSTG = [
     value: "https://config-safe-stage.saakuru.com/",
   },
   {
-    label: "Boba Mainnet STG",
-    value: "https://transaction.staging.safe.boba.network",
-  },
-  {
     label: "Vana Moksha Testnet STG",
     value: "https://config.safe.vana.org",
+  },
+  {
+    label: "Boba Mainnet STG",
+    value: "https://transaction.staging.safe.boba.network",
   },
   {
     label: "Boba Testnet STG",
