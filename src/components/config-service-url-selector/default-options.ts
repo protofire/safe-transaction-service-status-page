@@ -97,7 +97,11 @@ export const defaultOptionsPRD = [
   },
   {
     label: "Shape PRD",
-    value: "https://config.safe.shape.network"
+    value: "https://config.safe.shape.network",
+  },
+  {
+    label: "Vana Moksha Testnet PRD",
+    value: "https://config.safe.vana.org",
   },
   {
     label: "Superchain PRD",
@@ -208,8 +212,8 @@ export const defaultOptionsPRD = [
     value: "https://transaction-testnet.safe.sophon.xyz",
   },
   {
-    label: "Vana Testnet PRD",
-    value: "https://transaction-testnet.safe.vana.org/",
+    label: "Vana Moksha Testnet PRD",
+    value: "https://transaction-testnet.safe.vana.org",
   },
   {
     label: "Xai Mainnet PRD",
@@ -316,7 +320,7 @@ export const defaultOptionsSTG = [
   },
   {
     label: "Shape STG",
-    value: "https://config.staging.safe.shape.network"
+    value: "https://config.staging.safe.shape.network",
   },
   {
     label: "Superchain STG",
@@ -387,6 +391,10 @@ export const defaultOptionsSTG = [
     value: "https://transaction.staging.safe.boba.network",
   },
   {
+    label: "Vana Moksha Testnet STG",
+    value: "https://config.safe.vana.org",
+  },
+  {
     label: "Boba Testnet STG",
     value: "https://transaction-testnet.staging.safe.boba.network",
   },
@@ -423,8 +431,8 @@ export const defaultOptionsSTG = [
     value: "https://transaction-testnet.staging.safe.sophon.xyz/",
   },
   {
-    label: "Vana Testnet STG",
-    value: "https://transaction-testnet.staging.safe.vana.org/",
+    label: "Vana Moksha Testnet STG",
+    value: "https://transaction-testnet.staging.safe.vana.org",
   },
   {
     label: "Xai Mainnet STG",
