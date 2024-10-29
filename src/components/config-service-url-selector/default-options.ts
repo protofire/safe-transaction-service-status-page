@@ -48,6 +48,10 @@ export const defaultOptionsPRD = [
     value: "https://config.safe.immutable.com",
   },
   {
+    label: "Flow PRD",
+    value: "https://config.safe.flow.com",
+  },
+  {
     label: "IoTeX PRD",
     value: "https://config.safe.iotex.io",
   },
@@ -188,6 +192,10 @@ export const defaultOptionsPRD = [
     value: "https://transaction-bnb-testnet.safe.boba.network",
   },
   {
+    label: "Flow PRD",
+    value: "https://transaction.safe.flow.com",
+  },
+  {
     label: "Flow Testnet PRD",
     value: "https://transaction-testnet.safe.flow.com",
   },
@@ -269,6 +277,10 @@ export const defaultOptionsSTG = [
   {
     label: "Immutable STG",
     value: "https://config.safe.staging.immutable.com",
+  },
+  {
+    label: "Flow STG",
+    value: "https://config.staging.safe.flow.com",
   },
   {
     label: "IoTeX STG",
@@ -405,6 +417,10 @@ export const defaultOptionsSTG = [
   {
     label: "Boba Testnet BNB STG",
     value: "https://transaction-bnb-testnet.staging.safe.boba.network",
+  },
+  {
+    label: "Flow STG",
+    value: "https://transaction.staging.safe.flow.com",
   },
   {
     label: "Flow Testnet STG",
