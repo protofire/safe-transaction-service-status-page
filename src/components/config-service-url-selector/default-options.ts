@@ -104,6 +104,10 @@ export const defaultOptionsPRD = [
     value: "https://config.safe.shape.network",
   },
   {
+    label: "Sophon PRD",
+    value: " https://config.safe.sophon.xyz",
+  },
+  {
     label: "Vana Moksha Testnet PRD",
     value: "https://config.safe.vana.org",
   },
@@ -329,6 +333,10 @@ export const defaultOptionsSTG = [
   {
     label: "Sei STG",
     value: "https://config.staging.sei-safe.protofire.io",
+  },
+  {
+    label: "Sophon STG",
+    value: "https://config.staging.safe.sophon.xyz",
   },
   {
     label: "Shape STG",
