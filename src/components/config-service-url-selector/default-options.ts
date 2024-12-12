@@ -241,7 +241,7 @@ export const defaultOptionsPRD = [
   },
   {
     label: "Filecoin PRD",
-    value: "https://config.safe.filecoin.com",
+    value: "https://config.safe.filecoin.io",
   },
 ];
 
@@ -480,7 +480,7 @@ export const defaultOptionsSTG = [
   },
   {
     label: "Filecoin STG",
-    value: "https://config.staging.safe.filecoin.com",
+    value: "https://config.staging.safe.filecoin.io",
   },
 ];
 
