@@ -239,6 +239,10 @@ export const defaultOptionsPRD = [
     label: "Xai Testnet PRD",
     value: "https://transaction-testnet.safe.xai.games",
   },
+  {
+    label: "Filecoin PRD",
+    value: "https://config.safe.filecoin.com",
+  },
 ];
 
 export const defaultOptionsSTG = [
@@ -473,6 +477,10 @@ export const defaultOptionsSTG = [
   {
     label: "Xai Testnet STG",
     value: "https://transaction-testnet.staging.safe.xai.games",
+  },
+  {
+    label: "Filecoin STG",
+    value: "https://config.staging.safe.filecoin.com",
   },
 ];
 
