@@ -34,6 +34,16 @@ function ConfigServiceUrlSelector({
 }: ConfigServiceUrlSelectorProps) {
   const [inputValue, setInputValue] = useState<string>("");
 
+  // Select config by search param set in URL
+  useEffect(() => {
+    const searchParams = new URLSearchParams(window.location.search);
+    const queryValue = searchParams.get("config") || "";
+    if (queryValue) {
+      setConfigServiceUrl([queryValue]);
+      setInputValue(queryValue);
+    }
+  }, []);
+
   // Combine all options including All PRD and All STG
   const combinedOptions = [
     { label: "All PRD", value: "PRD" },
