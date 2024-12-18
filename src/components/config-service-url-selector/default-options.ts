@@ -185,59 +185,59 @@ export const defaultOptionsPRD = [
   },
   {
     label: "Boba Mainnet PRD",
-    value: "https://transaction.safe.boba.network",
+    value: "https://config.safe.boba.network ",
   },
   {
     label: "Boba Testnet PRD",
-    value: "https://transaction-testnet.safe.boba.network",
+    value: "https://config.safe.boba.network ",
   },
   {
     label: "Boba Mainnet BNB PRD",
-    value: "https://transaction-bnb.safe.boba.network",
+    value: "https://config.safe.boba.network ",
   },
   {
     label: "Boba Testnet BNB PRD",
-    value: "https://transaction-bnb-testnet.safe.boba.network",
+    value: "https://config.safe.boba.network ",
   },
   {
     label: "Flow PRD",
-    value: "https://transaction.safe.flow.com",
+    value: "https://config.safe.flow.com",
   },
   {
     label: "Flow Testnet PRD",
-    value: "https://transaction-testnet.safe.flow.com",
+    value: "https://config.safe.flow.com",
   },
   {
     label: "Everclear Testnet PRD",
-    value: "https://transaction-testnet.safe.everclear.org",
+    value: "https://config.safe.everclear.org",
   },
   {
     label: "Everclear Mainnet PRD",
-    value: "https://transaction.safe.everclear.org",
+    value: "https://config.safe.everclear.org",
   },
   {
     label: "Shape Mainnet PRD",
-    value: "https://transaction.safe.shape.network",
+    value: "https://config.safe.shape.network",
   },
   {
     label: "Shape Sepolia PRD",
-    value: "https://transaction-testnet.safe.shape.network",
+    value: "https://config.safe.shape.network",
   },
   {
     label: "Sophon Testnet PRD",
-    value: "https://transaction-testnet.safe.sophon.xyz",
+    value: "https://config.safe.sophon.xyz",
   },
   {
     label: "Vana Moksha Testnet PRD",
-    value: "https://transaction-testnet.safe.vana.org",
+    value: "https://config.safe.vana.org/",
   },
   {
     label: "Xai Mainnet PRD",
-    value: "https://transaction.safe.xai.games",
+    value: "https://config.safe.xai.games",
   },
   {
     label: "Xai Testnet PRD",
-    value: "https://transaction-testnet.safe.xai.games",
+    value: "https://config.safe.xai.games",
   },
   {
     label: "Filecoin PRD",
@@ -424,59 +424,59 @@ export const defaultOptionsSTG = [
   },
   {
     label: "Boba Mainnet STG",
-    value: "https://transaction.staging.safe.boba.network",
+    value: "https://config.staging.safe.boba.network ",
   },
   {
     label: "Boba Testnet STG",
-    value: "https://transaction-testnet.staging.safe.boba.network",
+    value: "https://config.staging.safe.boba.network ",
   },
   {
     label: "Boba Mainnet BNB STG",
-    value: "https://transaction-bnb.staging.safe.boba.network",
+    value: "https://config.staging.safe.boba.network ",
   },
   {
     label: "Boba Testnet BNB STG",
-    value: "https://transaction-bnb-testnet.staging.safe.boba.network",
+    value: "https://config.staging.safe.boba.network ",
   },
   {
     label: "Flow STG",
-    value: "https://transaction.staging.safe.flow.com",
+    value: " https://config.staging.safe.flow.com",
   },
   {
     label: "Flow Testnet STG",
-    value: "https://transaction-testnet.staging.safe.flow.com",
+    value: " https://config.staging.safe.flow.com",
   },
   {
     label: "Everclear Testnet STG",
-    value: "https://transaction-testnet.staging.safe.everclear.org",
+    value: "https://config.staging.safe.everclear.org",
   },
   {
     label: "Everclear Mainnet STG",
-    value: "https://transaction.staging.safe.everclear.org",
+    value: "https://config.staging.safe.everclear.org",
   },
   {
     label: "Shape Mainnet STG",
-    value: " https://transaction.staging.safe.shape.network",
+    value: " https://config.staging.safe.shape.network",
   },
   {
     label: "Shape Sepolia STG",
-    value: "https://transaction-testnet.staging.safe.shape.network",
+    value: "https://config.staging.safe.shape.network",
   },
   {
     label: "Sophon Testnet STG",
-    value: "https://transaction-testnet.staging.safe.sophon.xyz/",
+    value: "https://config.staging.safe.sophon.xyz",
   },
   {
     label: "Vana Moksha Testnet STG",
-    value: "https://transaction-testnet.staging.safe.vana.org",
+    value: "https://config.staging.safe.vana.org",
   },
   {
     label: "Xai Mainnet STG",
-    value: "https://transaction.staging.safe.xai.games",
+    value: "https://config.staging.safe.xai.games",
   },
   {
     label: "Xai Testnet STG",
-    value: "https://transaction-testnet.staging.safe.xai.games",
+    value: "https://config.staging.safe.xai.games",
   },
   {
     label: "Filecoin STG",
