@@ -184,59 +184,11 @@ export const defaultOptionsPRD = [
     value: "https://config-safe.saakuru.com",
   },
   {
-    label: "Boba Mainnet PRD",
-    value: "https://config.safe.boba.network ",
-  },
-  {
-    label: "Boba Testnet PRD",
-    value: "https://config.safe.boba.network ",
-  },
-  {
-    label: "Boba Mainnet BNB PRD",
-    value: "https://config.safe.boba.network ",
-  },
-  {
-    label: "Boba Testnet BNB PRD",
-    value: "https://config.safe.boba.network ",
-  },
-  {
-    label: "Flow PRD",
-    value: "https://config.safe.flow.com",
-  },
-  {
-    label: "Flow Testnet PRD",
-    value: "https://config.safe.flow.com",
-  },
-  {
-    label: "Everclear Testnet PRD",
+    label: "Everclear PRD",
     value: "https://config.safe.everclear.org",
   },
   {
-    label: "Everclear Mainnet PRD",
-    value: "https://config.safe.everclear.org",
-  },
-  {
-    label: "Shape Mainnet PRD",
-    value: "https://config.safe.shape.network",
-  },
-  {
-    label: "Shape Sepolia PRD",
-    value: "https://config.safe.shape.network",
-  },
-  {
-    label: "Sophon Testnet PRD",
-    value: "https://config.safe.sophon.xyz",
-  },
-  {
-    label: "Vana Moksha Testnet PRD",
-    value: "https://config.safe.vana.org/",
-  },
-  {
-    label: "Xai Mainnet PRD",
-    value: "https://config.safe.xai.games",
-  },
-  {
-    label: "Xai Testnet PRD",
+    label: "Xai PRD",
     value: "https://config.safe.xai.games",
   },
   {
@@ -347,14 +299,6 @@ export const defaultOptionsSTG = [
     value: "https://config.staging.sei-safe.protofire.io",
   },
   {
-    label: "Sophon STG",
-    value: "https://config.staging.safe.sophon.xyz",
-  },
-  {
-    label: "Shape STG",
-    value: "https://config.staging.safe.shape.network",
-  },
-  {
     label: "Superchain STG",
     value: "https://config.staging.safe.optimism.io",
   },
@@ -419,51 +363,15 @@ export const defaultOptionsSTG = [
     value: "https://config-safe-stage.saakuru.com/",
   },
   {
-    label: "Vana Moksha Testnet STG",
-    value: "https://config.safe.vana.org",
-  },
-  {
-    label: "Boba Mainnet STG",
-    value: "https://config.staging.safe.boba.network ",
-  },
-  {
-    label: "Boba Testnet STG",
-    value: "https://config.staging.safe.boba.network ",
-  },
-  {
-    label: "Boba Mainnet BNB STG",
-    value: "https://config.staging.safe.boba.network ",
-  },
-  {
-    label: "Boba Testnet BNB STG",
-    value: "https://config.staging.safe.boba.network ",
-  },
-  {
-    label: "Flow STG",
-    value: " https://config.staging.safe.flow.com",
-  },
-  {
-    label: "Flow Testnet STG",
-    value: " https://config.staging.safe.flow.com",
-  },
-  {
-    label: "Everclear Testnet STG",
+    label: "Everclear STG",
     value: "https://config.staging.safe.everclear.org",
   },
   {
-    label: "Everclear Mainnet STG",
-    value: "https://config.staging.safe.everclear.org",
-  },
-  {
-    label: "Shape Mainnet STG",
-    value: " https://config.staging.safe.shape.network",
-  },
-  {
-    label: "Shape Sepolia STG",
+    label: "Shape STG",
     value: "https://config.staging.safe.shape.network",
   },
   {
-    label: "Sophon Testnet STG",
+    label: "Sophon STG",
     value: "https://config.staging.safe.sophon.xyz",
   },
   {
@@ -471,11 +379,7 @@ export const defaultOptionsSTG = [
     value: "https://config.staging.safe.vana.org",
   },
   {
-    label: "Xai Mainnet STG",
-    value: "https://config.staging.safe.xai.games",
-  },
-  {
-    label: "Xai Testnet STG",
+    label: "Xai STG",
     value: "https://config.staging.safe.xai.games",
   },
   {
