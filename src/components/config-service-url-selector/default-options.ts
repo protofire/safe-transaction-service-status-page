@@ -195,6 +195,14 @@ export const defaultOptionsPRD = [
     label: "Filecoin PRD",
     value: "https://config.safe.filecoin.io",
   },
+  {
+    label: "Nibiru PRD",
+    value: "https://config.safe.nibiru.fi"
+  },
+  {
+    label: "Spiderchain PRD",
+    value: "https://config.safe.botanixlabs.xyz"
+  }
 ];
 
 export const defaultOptionsSTG = [
@@ -386,6 +394,14 @@ export const defaultOptionsSTG = [
     label: "Filecoin STG",
     value: "https://config.staging.safe.filecoin.io",
   },
+  {
+    label: "Nibiru STG",
+    value: "https://config.staging.safe.nibiru.fi"
+  },
+  {
+    label: "Spiderchain STG",
+    value: "https://config.staging.safe.botanixlabs.xyz"
+  }
 ];
 
 export const defaultOptions = [...defaultOptionsPRD, ...defaultOptionsSTG];
