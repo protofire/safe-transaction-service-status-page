@@ -17,7 +17,7 @@ const defaultOptions = [
 
 type ConfigServiceUrlSelectorProps = {
   configServiceUrl?: string;
-  setConfigServiceUrl: React.Dispatch<React.SetStateAction<string>>;
+  setConfigServiceUrl: (newValue: string) => void;
 };
 
 type optionsType = {
