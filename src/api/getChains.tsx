@@ -2,17 +2,35 @@ import axios, { RawAxiosRequestConfig } from "axios";
 
 import chain from "src/models/chain";
 
-const CHAINS_PATHNAME = "/api/v1/chains/";
+const ENDPOINTS = {
+  CONFIG_SERVICE: "/api/v1/chains/",
+  GATEWAY: "/v1/chains/",
+};
 
 async function getChains(
-  configServiceBaseUrl: string,
+  baseUrl: string,
   options?: RawAxiosRequestConfig,
 ): Promise<chain[]> {
-  const endpoint = `${configServiceBaseUrl}${CHAINS_PATHNAME}`;
+  const fetchFromEndpoint = async (endpoint: string) => {
+    try {
+      const { data } = await axios.get(`${baseUrl}${endpoint}`, options);
+      return data.results;
+    } catch (error) {
+      return null;
+    }
+  };
 
-  const { data } = await axios.get(endpoint, options);
+  // Try config service endpoint first, then fall back to gateway
+  const configServiceResult = await fetchFromEndpoint(ENDPOINTS.CONFIG_SERVICE);
+  if (configServiceResult) return configServiceResult;
 
-  return data.results;
+  const gatewayResult = await fetchFromEndpoint(ENDPOINTS.GATEWAY);
+  if (gatewayResult) return gatewayResult;
+
+  // If both attempts fail, throw an error
+  throw new Error(
+    "Failed to fetch chains from both config service and gateway endpoints",
+  );
 }
 
 export default getChains;
