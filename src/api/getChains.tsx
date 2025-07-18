@@ -4,7 +4,7 @@ import chain from "src/models/chain";
 
 const ENDPOINTS = {
   CONFIG_SERVICE: "/api/v1/chains/",
-  GATEWAY: "/v1/chains/",
+  GATEWAY: "/v1/chains?cursor=limit%3D50%26offset%3D0",
 };
 
 async function getChains(
