@@ -13,7 +13,8 @@ async function getChains(
 ): Promise<chain[]> {
   const fetchFromEndpoint = async (endpoint: string) => {
     try {
-      const { data } = await axios.get(`${baseUrl}${endpoint}`, options);
+      const origin = new URL(baseUrl).origin;
+      const { data } = await axios.get(new URL(endpoint, origin).href, options);
       return data.results;
     } catch (error) {
       return null;
